@@ -53,6 +53,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   scroll-behavior: smooth;
 }
 
@@ -78,4 +79,15 @@ body {
   align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
             url(../public/images/home-banner.jpg) no-repeat center center/cover;
+=======
+}
+.about-banner-section{
+  background-color: #000;
+  background-image: url(/public/images/bg_2.b4660a2fd91599fe53c9.svg);
+  display: flex;
+  margin: 30px;
+  border-radius: 25px;
+  padding: 100px 50px;
+  width:100%;
+>>>>>>> f5a2789ad978d09d10e943acaebd2fd169d8663a
 }

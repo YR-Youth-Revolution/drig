@@ -1,8 +1,15 @@
 import React from 'react'
+import AboutBanner from '../About/Banner/AboutBanner'
+import '../../index.css'
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+   <>
+   <section className='about-banner-section'>
+    <AboutBanner/>
+   </section>
+   
+   </>
   )
 }
 
