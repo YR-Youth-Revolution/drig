@@ -54,3 +54,12 @@ body {
   margin: 0;
   padding: 0;
 }
+.about-banner-section{
+  background-color: #000;
+  background-image: url(/public/images/bg_2.b4660a2fd91599fe53c9.svg);
+  display: flex;
+  margin: 30px;
+  border-radius: 25px;
+  padding: 100px 50px;
+  width:100%;
+}
