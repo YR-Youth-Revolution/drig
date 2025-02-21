@@ -37,23 +37,25 @@ p{
   --black: #000000;
   --gray: #cccccc;
   --light-gray: #f4f4f4;
-  --primary: #d9e026;
+  --primary: #dae120;
   --secondary: #3a3a3a;
   --soft: #f5f8b5;
 }
-
+#root{
+  overflow: hidden;
+}
 /* general */
 
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: var(--white);
+  overflow-x: hidden;
 }
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
   scroll-behavior: smooth;
 }
 
@@ -79,7 +81,6 @@ body {
   align-items: center;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
             url(../public/images/home-banner.jpg) no-repeat center center/cover;
-=======
 }
 .about-banner-section{
   background-color: #000;
@@ -88,6 +89,21 @@ body {
   margin: 30px;
   border-radius: 25px;
   padding: 100px 50px;
+  width:97%;
+}
+.values-section{
+  display: flex;
   width:100%;
->>>>>>> f5a2789ad978d09d10e943acaebd2fd169d8663a
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+ 
+}
+.mission-section{
+  background-color: #000;
+  background-image: url(/public/images/bg_2.b4660a2fd91599fe53c9.svg);
+  display: flex;
+  width:100%;
+  justify-content: center;
+  padding: 100px 20px;
 }

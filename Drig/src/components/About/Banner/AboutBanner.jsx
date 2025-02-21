@@ -4,6 +4,8 @@ import roof from '../../../../public/images/roof.webp'
 import i1 from '../../../../public/images/i1.webp'
 import i2 from '../../../../public/images/i2.webp'
 import i3 from '../../../../public/images/hut_image2.6a796d74ae5e292e31fa.webp'
+import star from '../../../../public/images/star-yellow.png'
+import stardark from '../../../../public/images/star-dark.png'
 const AboutBanner = () => {
   return (
     <>
@@ -22,17 +24,21 @@ const AboutBanner = () => {
             <div className='aboutbanner-container-windows-right'>
                <img src={i2} alt="" />
             </div>
+           
          </div>
+
      </div>
      <div className='aboutbanner-container-right'>
-         <video src=""></video>
+      <div className='star-bright'>
+        <img src={star} alt="star-bright" />
+        </div>
          <div className='aboutbanner-container-right-content'>
-            <h3>About Drig</h3>
-            <h1>Strategic <span>digital journey-</span> Your Secret growth conspiracy </h1>
+         <h3 class="buttonpro about-buttonpro"><span>About Drig</span></h3>
+            <h1>Strategic <span>digital journey-</span> Your Secret growth Conspiracy </h1>
             <p>We dream your biggest dream and we envision its potential future- More than any regular marketing agency, we strive hard to be your undeniable digital growth partners in a dynamic digital landscape. With the intent of helping businesses seize their space in the competing digital world, we construct solution-centric and result-oriented marketing strategies that give you an edge over the competitive advantage. Whether you are starting with a digital profile for a startup, or requiring tactical marketing solutions for a growing company, we are a one-stop destination for all your marketing requirements.  </p>
          </div>
-         <video src=""></video>
      </div>
+      <img className='stardark' src={stardark} alt="" />
   </div>
     </>
   )

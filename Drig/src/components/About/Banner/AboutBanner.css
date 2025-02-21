@@ -56,7 +56,7 @@
     width: 270px;
     height: 100%;
     object-fit: cover;
-    box-shadow: #d9e026;
+    box-shadow: var(--primary);
  
 }
 .aboutbanner-container-windows-bottom img{
@@ -65,10 +65,12 @@
     object-fit: cover;
 }
 .aboutbanner-container-right-content h1{
-   color: #d9e026;
+   color: var(--primary);
    font-size: 48px;
   font-family: "Space Grotesk", serif;
   padding-bottom: 20px;
+  font-family: "Space Grotesk", serif;
+  text-align: left;
 }
 .aboutbanner-container-right-content h1 span{
     color: #ffffff;
@@ -82,13 +84,66 @@
  font-family: "Space Grotesk", serif;
  padding-bottom: 20px;
  }
- .aboutbanner-container-right-content h3{
-    font-size: 16px;
-    font-family: "Montserrat", serif;
-    padding-bottom: 20px;
-    color: #ffffff;
-  }
+
   .aboutbanner-container-windows-right img{
     height:100%;
     object-fit: cover;
   }
+  .aboutbanner-container-right-content h3{
+    font-size: 16px;
+    font-family: "Space Grotesk", serif;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    max-width: fit-content;
+  }
+  .star-bright img{
+    width:180px;
+  }
+  .star-bright{
+    text-align: end;
+  }
+
+  @keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.star-bright img {
+    animation: pulse 1s infinite ease-in-out;
+}
+.stardark{
+    position: absolute;
+    bottom: -57px;
+    left: -16px;
+    width: 150px;
+}
+.aboutbanner-container{
+    position: relative;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.stardark {
+    animation: rotate 5s linear infinite;
+}
