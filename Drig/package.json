@@ -13,7 +13,9 @@
     "animated-cursor": "^1.2.0",
     "framer-motion": "^12.4.4",
     "helmet": "^8.0.0",
+    "number-counter": "^1.0.3",
     "react": "^19.0.0",
+    "react-animated-cursor": "^2.11.2",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0"
   },
