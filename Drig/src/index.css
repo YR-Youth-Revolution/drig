@@ -116,7 +116,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 120px 16px;
+  padding: 100px 16px;
 }
 
 .home-services-section{
@@ -125,5 +125,5 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 120px 16px;
+  padding: 100px 0px;
 }

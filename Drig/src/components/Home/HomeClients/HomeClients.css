@@ -130,3 +130,39 @@
     color: var(--primary) !important;
     transition: all 0.5s ease-in-out;
 }
+
+/* Clients Section */
+
+.clients-services-wrapper{
+    width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 120px;
+}
+
+.client-logo-box{
+    border: 1px solid var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-logo-box img{
+    width: 50%;
+    filter: brightness(0.1);
+    cursor: pointer;
+    opacity: 0.5;
+    transition: filter 0.5s ease-in-out;
+    
+}
+
+.client-logo-box img:hover{
+    filter: brightness(1);
+    opacity: 1;
+}
+
+.client-logo-box:hover img{
+    filter: brightness(1);
+    opacity: 1;
+}

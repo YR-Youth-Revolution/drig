@@ -13,7 +13,7 @@ const Who = () => {
         </div>
         <div className="who-right">
             <h3 class="buttonpro who-btn-h3"><span>Who we are</span></h3>
-            <h2>We are a <span>Full Stacked</span> creative digital marketing agency</h2>
+            <h2>We are a <span className="heighlights">Full Stacked</span> creative digital marketing agency</h2>
             <p>With a bunch of creative nerds, domain experts and strategists, your brand is about to experience accelerated growth, steady advancement and lasting success.</p>
             <ul className="who-list">
                 <li><img src={one} /> Creativity is sparked by innovation.</li>
