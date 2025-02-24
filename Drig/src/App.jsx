@@ -3,6 +3,8 @@ import Home from './components/Pages/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutUs from './components/Pages/AboutUs';
 import AnimatedCursor from "react-animated-cursor";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const App = () => {
   return (
