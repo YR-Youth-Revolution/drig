@@ -86,7 +86,7 @@ body {
             url(../public/images/home-banner.jpg) no-repeat center center/cover;
 }
 .about-banner-section{
-  background-color: #000;
+  background-color:var(--black);
   background-image: url(/public/images/bg_2.b4660a2fd91599fe53c9.svg);
   display: flex;
   margin: 30px;
@@ -103,7 +103,7 @@ body {
  
 }
 .mission-section{
-  background-color: #000;
+  background-color: var(--black);
   background-image: url(/public/images/bg_2.b4660a2fd91599fe53c9.svg);
   display: flex;
   width:100%;
@@ -126,4 +126,22 @@ body {
   justify-content: center;
   align-items: center;
   padding: 100px 0px;
+  padding: 120px 16px;
+}
+.whyus-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+}
+.team-section{
+  background-color: var(--black);
+  background-image: url(/public/images/bg_2.b4660a2fd91599fe53c9.svg);
+  background-size: cover;
+  display: flex;
+  width:100%;
+  justify-content: center;
+  padding: 100px 20px;
 }
