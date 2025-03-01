@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* fonts */
+/* font-family: "Montserrat", serif;
+font-family: "Space Grotesk", serif; */
+
+/* h3{
+  font-size: 16px;
+  font-family: "Montserrat", serif
+}
+
+h1{
+  font-size: 48px;
+  font-family: "Space Grotesk", serif;
+}
+h2{
+  font-size: 48px;
+  font-family: "Space Grotesk", serif;
+} 
+
+p{
+ font-size: 16px;
+ font-family: "Space Grotesk", serif;
+}
+*/
+
+
+
+
+/* colors */
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #cccccc;
+  --light-gray: #f4f4f4;
+  --primary: #dae120;
+  --secondary: #3a3a3a;
+  --soft: #f5f8b5;
+}
+#root{
+  overflow: hidden;
+}
+/* general */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--white);
+  overflow-x: hidden;
+}
+#root{
+  overflow-x: hidden;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.header-section{
+  background-color: var(--white);
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.home-banner-section{
+  width: 100%;
+  height: 780px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+            url(../public/images/home-banner.jpg) no-repeat center center/cover;
+}
+.about-banner-section{
+  background-color:var(--black);
+  background-image: url(/public/images/bg_2.b4660a2fd91599fe53c9.svg);
+  display: flex;
+  margin: 30px;
+  border-radius: 25px;
+  padding: 100px 50px;
+  width:97%;
+}
+.values-section{
+  display: flex;
+  width:100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+ 
+}
+.mission-section{
+  background-color: var(--black);
+  background-image: url(/public/images/bg_2.b4660a2fd91599fe53c9.svg);
+  display: flex;
+  width:100%;
+  justify-content: center;
+  padding: 100px 20px;
+}
+.who-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 16px;
+}
+
+.home-services-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 16px;
+}
+.whyus-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 16px;
+}
+.team-section{
+  background-color: var(--black);
+  background-image: url(/public/images/bg_2.b4660a2fd91599fe53c9.svg);
+  background-size: cover;
+  display: flex;
+  width:100%;
+  justify-content: center;
+  padding: 100px 20px;
+}
+.contact-banner-section{
+  background-color: var(--black);
+  background-image: url(/public/images/bg_2.b4660a2fd91599fe53c9.svg);
+  background-size: cover;
+  display: flex;
+  width:100%;
+  justify-content: center;
+  padding: 100px 20px;
+}

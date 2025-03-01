@@ -1,0 +1,108 @@
+.team-members-container {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+    gap:40px;
+}
+.team-img img{
+    width: 350px;
+    height: 427px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+.experts{
+    text-align: center;
+}
+.team-members-column{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+   gap: 70px;
+}
+.team{
+    position: relative;
+    padding-right: 60px;
+}
+.team-img{
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.team-details{
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: -15px;
+    text-align: center;
+    backdrop-filter: blur(15px);
+    opacity: 0;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.team-details span{
+    font-size: 16px !important;
+    color: var(--white);
+
+}
+.team-details h6{
+    font-size: 20px !important;
+    color: var(--primary);
+
+}
+.team-social{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 60px;
+    bottom: 40px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-image: initial;
+    background: rgb(18, 18, 18);
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.team-social-tap{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.team-social-tap a{
+display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-image: initial;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.fab{
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1;
+    color: var(--primary);
+}
+.team:hover .team-img .team-details{
+    bottom: 15px;
+    opacity: 1;
+}
+.team:hover .team-social{
+    right: 5px;
+    -webkit-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    transform: rotate(8deg);
+}
