@@ -5,7 +5,7 @@ import Header from '../Home/Header/Header'
 import Values from '../About/Values/Values'
 import Mission from '../About/Mission/Mission'
 import WhyUs from '../About/Why Us/WhyUs'
-import Team from '../Team/Team'
+import Team from '../About/Team/Team'
 
 const AboutUs = () => {
   return (

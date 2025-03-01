@@ -338,7 +338,7 @@
   .container {
     position: absolute;
     left: 5px;
-    width: 35px;
+    width: 35px !important;
     height: 35px;
     background: var(--primary);
     border-radius: 50%;

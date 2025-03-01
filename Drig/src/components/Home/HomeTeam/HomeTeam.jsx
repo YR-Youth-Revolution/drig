@@ -3,6 +3,35 @@ import "./HomeTeam.css";
 import Team from "../../../../public/images/Team.png";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
+
+
+const teamMembers = [
+  {
+    name: 'Chezhiyan Sathish',
+    position: 'Senior Web Developer',
+    image: '/images/Sathish G P.jpg', 
+    facebook: 'https://www.facebook.com/',
+    instagram: 'https://www.instagram.com/',
+    linkedin: 'https://www.linkedin.com/'
+  },
+  {
+    name: 'Dhivya Sankar',
+    position: 'Junior Web Developer',
+    image: '/images/Dhivya-Yrmedia.png',
+    facebook: 'https://www.facebook.com/',
+    instagram: 'https://www.instagram.com/',
+    linkedin: 'https://www.linkedin.com/'
+  },
+  {
+    name: 'Kaviya',
+    position: 'SMM',
+    image: '/images/Kaviya-yr-media.png',
+    facebook: 'https://www.facebook.com/',
+    instagram: 'https://www.instagram.com/',
+    linkedin: 'https://www.linkedin.com/'
+  },
+];
+
 const HomeTeam = () => {
   return (
     <>
@@ -30,7 +59,36 @@ const HomeTeam = () => {
         </div>
       </div>
 
-      <div className="team-wrapper">
+      <div className='team-members-container home-team-con'>
+        {teamMembers.map((member, index) => (
+          <div className='team-members-column' key={index}>
+            <div className='team'>
+              <div className='team-img'>
+                <img src={member.image} alt={member.name} />
+                <div className='team-details'>
+                  <span>{member.position}</span>
+                  <h6>{member.name}</h6>
+                </div>
+              </div>
+              <div className='team-social'>
+                <div className='team-social-tap'>
+                  <a href={member.facebook} target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-facebook-f"></i>
+                  </a>
+                  <a href={member.instagram} target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* <div className="team-wrapper">
        <div className="team-box">
         <div className="team-image-box">
           <img src={Team} alt="" />
@@ -58,7 +116,7 @@ const HomeTeam = () => {
           <p>Web Developer</p>
        </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -8,6 +8,8 @@ import HomeServices from '../Home/HomeServices/HomeServices'
 import HomeClients from '../Home/HomeClients/HomeClients'
 import HomeCaseStudy from '../Home/HomeCaseStudy/HomeCaseStudy'
 import HomeTeam from '../Home/HomeTeam/HomeTeam'
+import HomeTestimonial from '../Home/HomeTestimonial/HomeTestimonial'
+import Footer from '../Home/Footer/Footer'
 
 const Home = () => {
   return (
@@ -34,6 +36,12 @@ const Home = () => {
       </div>
      <div className="home-services-section">
       <HomeTeam />
+      </div>
+     <div className="home-services-section">
+      <HomeTestimonial />
+      </div>
+     <div className="footer-section">
+      <Footer />
       </div>
     </>
   )

@@ -6,7 +6,7 @@ const teamMembers = [
   {
     name: 'Chezhiyan Sathish',
     position: 'Senior Web Developer',
-    image: '/images/Sathish G P.jpg', // Ensure these images exist in `public/images/`
+    image: '/images/Sathish G P.jpg', 
     facebook: 'https://www.facebook.com/',
     instagram: 'https://www.instagram.com/',
     linkedin: 'https://www.linkedin.com/'

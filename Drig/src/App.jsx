@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutUs from './components/Pages/AboutUs';
 import AnimatedCursor from "react-animated-cursor";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Services from './components/Pages/Services';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const App = () => {
@@ -21,6 +23,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
       </BrowserRouter>   
     </>
