@@ -1,6 +1,4 @@
-/* .slick-track{
-    width: 100% !important;
-} */
+
 .slick-list{
     width: 100% !important;
     height: 380px !important;
@@ -53,5 +51,9 @@
     font-family: "Space Grotesk", serif;
     color: var(--secondary);
     margin-bottom: 10px;
+}
+
+.slick-arrow{
+    display: none !important;
 }
 

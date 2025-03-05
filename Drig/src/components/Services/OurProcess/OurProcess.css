@@ -1,0 +1,71 @@
+.our-process-container{
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 60px;
+}
+
+.process-left-con{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.process-right-con{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.process-head-box{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+
+
+    
+    padding: 50px 60px;
+    margin: 12px;
+    background-color: var(--primary);
+    border-radius: 12px;
+}
+
+.process-head-box p{
+    font-size: 22px;
+    font-family: "Space Grotesk", serif;
+    color: var(--secondary);
+    margin-bottom: 10px;
+}
+
+.pt-process{
+   background-color: var(--secondary) !important;
+    color: var(--primary) !important;
+}
+
+.process-icon img{
+    width: 25%;
+}
+
+.process-content-box h4{
+    font-size: 28px;
+    font-family: "Space Grotesk", serif;
+    color: var(--secondary);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.process-content-box p{
+    font-size: 16px;
+    font-family: "Space Grotesk", serif;
+    color: var(--secondary);
+    margin-bottom: 10px;
+
+}

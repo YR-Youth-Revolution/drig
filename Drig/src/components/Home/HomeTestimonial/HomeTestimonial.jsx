@@ -13,11 +13,12 @@ function HomeTestimonial() {
   };
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
+    navigator: false,
     autoplaySpeed: 2000,
   };
   return (

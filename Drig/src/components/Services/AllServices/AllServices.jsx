@@ -74,6 +74,84 @@ const AllServices = () => {
             </div>
           </Accordion.Body>
         </Accordion.Item>
+        <Accordion.Item eventKey="2">
+          <Accordion.Header>03 Social Media Marketing </Accordion.Header>
+          <Accordion.Body>
+            <div className="accordion-content">
+              <div className="accordion-text">
+                <p>
+                Let's face it: The social media game is not about being scroll-worthy. The key for us is to build takeaways through social media messages thereby converting your followers into devoted consumers. We design daring social media campaigns based on facts that attract followers, strengthen relationships, and produce tangible benefits for businesses. 
+                  <br />
+                  <br />
+                  Our team of social butterflies help your brand stand out and dominate in a crowded marketplace, with well-equipped social media strategies kept in place.
+                </p>
+
+                <div className="button-box">
+                  <a href="/contact">
+                    <button>
+                      <span>View More</span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div className="accordion-image">
+                <img src={Drig2} alt="Service 2" />
+              </div>
+            </div>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="3">
+          <Accordion.Header>04 Search Engine Optimization</Accordion.Header>
+          <Accordion.Body>
+            <div className="accordion-content">
+              <div className="accordion-text">
+                <p>
+                In the end, it’s always the results that speak: Being completely present is paramount to mere existence within the online sphere. Straight up, your rival is winning if your website isn't ranking. At YR Media, we don’t take the SEO game just for effect. With our data-driven, high-impact SEO strategies, all you can see is a winning edge with your rankings, organic traffic, and conversion rates.
+                  <br />
+                  <br />
+                  We are here to co-create a master plan that will favour elevating your brand to its rightful place of destination at the top by outshining it with increasing traffic and conversions.
+                </p>
+
+                <div className="button-box">
+                  <a href="/contact">
+                    <button>
+                      <span>View More</span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div className="accordion-image">
+                <img src={Drig2} alt="Service 2" />
+              </div>
+            </div>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="4">
+          <Accordion.Header>05 Content Writing</Accordion.Header>
+          <Accordion.Body>
+            <div className="accordion-content">
+              <div className="accordion-text">
+                <p>
+                Content isn’t just a word game: We care for words that speak through your audience together. Through our content plan, we aim to tell your story wrapped in a compelling narrative that leaves a lasting impact. At YR Media, we don't do things the dull way, we make it as lively as possible through the seamless integration of creativity, research and thoughtful strategy. Through the creation of content that is bold, strategic, and results-driven, we make it hard for people to ignore your brand.
+                  <br />
+                  <br />
+                  We have a way with our words. Be it SEO-optimised blogs, social media captions that are captivating and ad copies that convert, our team of experts make sure to address all your needs from the core.
+                </p>
+
+                <div className="button-box">
+                  <a href="/contact">
+                    <button>
+                      <span>View More</span>
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div className="accordion-image">
+                <img src={Drig2} alt="Service 2" />
+              </div>
+            </div>
+          </Accordion.Body>
+        </Accordion.Item>
       </Accordion>
     </div>
   );

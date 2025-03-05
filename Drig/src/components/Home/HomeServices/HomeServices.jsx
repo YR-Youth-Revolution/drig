@@ -9,7 +9,7 @@ const HomeServices = () => {
       <div className="home-services-container">
         <div className="services-head-box">
           <div className="ser-left-box">
-            <h3 class="buttonpro who-btn-h3">
+            <h3 className="buttonpro who-btn-h3">
               <span>What we offer</span>
             </h3>
             <h2>
