@@ -6,6 +6,7 @@ import AnimatedCursor from "react-animated-cursor";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Services from './components/Pages/Services';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ContactUs from './components/Pages/Contact';
 
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<ContactUs />} />
         </Routes>
       </BrowserRouter>   
     </>

@@ -12,6 +12,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "animated-cursor": "^1.2.0",
+    "axios": "^1.8.1",
     "bootstrap": "^5.3.3",
     "framer-motion": "^12.4.4",
     "helmet": "^8.0.0",

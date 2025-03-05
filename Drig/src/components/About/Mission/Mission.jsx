@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Mission.css'
+import '../Mission/Mission.css'
 import star from '../../../../public/images/star-yellow.png'
 
 
@@ -46,7 +46,7 @@ image:"../../../../public/images/hut_image2.6a796d74ae5e292e31fa.webp",
             {boxes.map((box, index) => (
               <div
                 key={box.id}
-                className={`accordion-item ${
+                className={`accordion-item-r ${
                   activeBox === index ? "active" : ""
                 }`}
               >
