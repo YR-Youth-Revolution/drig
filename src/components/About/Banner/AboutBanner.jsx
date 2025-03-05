@@ -22,9 +22,9 @@ const AboutBanner = () => {
              </div>
             </div>
             <div className='aboutbanner-container-windows-right'>
-               <img src={i2} alt="" />
+               <img src={i2} alt="banner image" />
             </div>
-           
+    
          </div>
 
      </div>
