@@ -11,8 +11,8 @@ const ContactDetails = () => {
     <span className="contact-icon">
     <i class="fa-solid fa-phone"></i></span>
     <h4 className="contact-title">Phone</h4>
-    <span><a className="contact-list" href="tel:+123456789000">+91 93425 98057</a></span>
-    <span><a className="contact-list" href="tel:+123356688000">+91 93425 98057</a></span>
+    <span><a className="contact-list" href="tel:+919342598057">+91 93425 98057</a></span>
+    
     </div>
     </div>
 
@@ -22,8 +22,7 @@ const ContactDetails = () => {
     <span className="contact-icon">
     <i class="fa-solid fa-envelope"></i></span>
     <h4 className="contact-title">Email</h4>
-    <span><a className="contact-list" href="mailto:info@procus.com">info@yrmedia.in</a></span>
-    <span><a className="contact-list" href="mailto:support@procus.com">info@yrmedia.in</a></span>
+    <span><a className="contact-list" href="mailto:info@drig.digital">info@drig.digital</a></span>
     </div>
     </div>
 
@@ -32,10 +31,7 @@ const ContactDetails = () => {
     <span className="contact-icon">
     <i class="fa-solid fa-location-dot"></i></span>
     <h4 className="contact-title">Location</h4>
-    <span className="contact-list">Old No 30, New, 55, Teachers Colony,
-    </span>
-    <span className="contact-list">Venkata Rathinam Nagar, Adyar,</span>
-    <span className="contact-list">Chennai, Tamil Nadu 600020</span>
+    <span className="contact-list"><b>Drig Digital,</b><br/>Old No 30, New, 55, Teachers Colony,<br/>Venkata Rathinam Nagar, Adyar,<br/>Chennai, Tamil Nadu 600020</span>
     </div>
     </div>
 
@@ -50,8 +46,9 @@ const ContactDetails = () => {
         <div className="contact-box-details">
           <h2 className="contact-title">Get in Touch</h2>
           <form className="contact-form">
-            <input type="text" placeholder="Your Name" className="form-input" required />
-            <input type="email" placeholder="Your Email" className="form-input" required />
+            <input type="text" placeholder="Name" className="form-input" required />
+            <input type="email" placeholder="Email" className="form-input" required />
+            <input type="tel" placeholder="Phone" className="form-input" required />
             <textarea placeholder="Your Message" className="form-textarea" required></textarea>
             <button type="submit" className="submit-button">Send Message</button>
           </form>

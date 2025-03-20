@@ -77,6 +77,99 @@
 }
 
 .why-left img {
-    width: 90%;
+    width: 100%;
     margin-right: 100px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .who-are-container {
+        flex-direction: column;
+        padding: 25px 10px;
+        width: 100%;
+    }
+    
+    .who-left img {
+        width: 70%;
+    }
+    
+    .who-right h2 {
+        font-size: 28px !important;
+    }
+    
+    .who-right ul {
+        font-size: 16px !important;
+    }
+    .who-left{
+        width: 100%;
+    }
+    .who-right{
+        width: 100%;
+    }
+    .who-section{
+        padding: 0 15px;
+    }
+    .who-btn-h3 {
+        width: 36%;
+    }    
+}
+
+@media screen and (max-width: 480px) {
+    .who-right h2 {
+        font-size: 24px !important;
+    }
+    
+    .who-right ul {
+        font-size: 14px !important;
+    }
+    
+    .who-are-container .contact-button button {
+        width: 50%;
+        
+    }
+    .contact-button button span{
+        font-size: 12px !important;
+    }
+    .contact-button button{
+        margin-top: 20px !important;
+    }
+    .who-are-container {
+        flex-direction: column;
+        padding: 25px 10px;
+        width: 100%;
+    }
+    .whyus-section{
+        padding: 0px !important;
+        width: auto !important;;
+    }
+
+    .who-left{
+        width: 100%;
+    }
+    .who-right{
+        width: 100%;
+    }
+    .who-section{
+        padding: 0 5px;
+    }
+    .who-btn-h3 {
+        width: 36%;
+    } 
+    .why-btn-h3{
+        width: fit-content !important;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    .who-are-container{
+        width: 1200px;
+    }
+    .buttonpro{
+        width: fit-content !important;
+    }
+    .who-left img {
+        width: 70%;
+    }
 }

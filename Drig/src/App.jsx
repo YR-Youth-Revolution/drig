@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
       <AnimatedCursor 
-        color="217, 224, 38"  // RGB equivalent of #d9e026
+        color="217, 224, 38"
         innerSize={8} 
         outerSize={35} 
         outerAlpha={0.3} 

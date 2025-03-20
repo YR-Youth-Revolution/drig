@@ -258,7 +258,8 @@ button {
 }
 .mobile-menu li a:hover {
     
-    color: #37C3E5;
+    color: var(--primary);
+    transition: 0.5s ease-in-out;
     
 }
 
@@ -284,6 +285,9 @@ button {
     }
     .logo-box img {
         width: 90%;
+    }
+    .header-container .contact-button button{
+        margin-top: 0px !important;
     }
 }
 

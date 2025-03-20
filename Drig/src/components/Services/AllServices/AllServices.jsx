@@ -1,8 +1,12 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import "./AllServices.css";
-import Drig1 from "/public/images/fav.png";
-import Drig2 from "/public/images/fav.png";
+import Drig1 from "/public/images/Brand.png";
+import Drig2 from "/public/images/WEB HOSTING.png";
+import Drig3 from "/public/images/Graphics-Design.png";
+import Drig4 from "/public/images/Seo.png";
+import Drig5 from "/public/images/content.png";
+
 
 const AllServices = () => {
   return (
@@ -95,7 +99,7 @@ const AllServices = () => {
                 </div>
               </div>
               <div className="accordion-image">
-                <img src={Drig2} alt="Service 2" />
+                <img src={Drig3} alt="Service 2" />
               </div>
             </div>
           </Accordion.Body>
@@ -121,7 +125,7 @@ const AllServices = () => {
                 </div>
               </div>
               <div className="accordion-image">
-                <img src={Drig2} alt="Service 2" />
+                <img src={Drig4} alt="Service 2" />
               </div>
             </div>
           </Accordion.Body>
@@ -147,7 +151,7 @@ const AllServices = () => {
                 </div>
               </div>
               <div className="accordion-image">
-                <img src={Drig2} alt="Service 2" />
+                <img src={Drig5} alt="Service 2" />
               </div>
             </div>
           </Accordion.Body>

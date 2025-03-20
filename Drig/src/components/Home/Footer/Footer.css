@@ -7,6 +7,18 @@
   padding: 16px;
 }
 
+.footer-text{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  font-size: 16px;
+  color: var(--primary) !important;
+  font-family: "Space Grotesk", serif;
+  padding-left: 20px;
+}
+
 .footer-left-box{
   width: 40%;
   display: flex;
@@ -46,7 +58,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 30px;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 .social-platform a i{
@@ -106,4 +118,123 @@
   height: 2px;
   background-color: var(--primary);
   margin: 0;
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .footer-container {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+  }
+
+  .footer-left-box,
+  .footer-middle-box,
+  .footer-right-box {
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  .footer-logo img {
+      width: 60%;
+  }
+
+  .footer-middle-box h3,
+  .footer-right-box h3 {
+      font-size: 36px;
+  }
+
+  .footer-middle-box ul li {
+      margin-bottom: 15px;
+  }
+
+  .social-platform {
+      justify-content: center;
+      padding-left: 0;
+      gap: 20px;
+  }
+
+  .contact-info p {
+      font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+      padding: 10px;
+  }
+
+  .footer-left-box,
+  .footer-middle-box,
+  .footer-right-box {
+      width: 100%;
+  }
+
+  .footer-logo img {
+      width: 70%;
+  }
+
+  .footer-middle-box h3,
+  .footer-right-box h3 {
+      font-size: 28px;
+  }
+
+  .footer-middle-box ul li a {
+      font-size: 16px;
+  }
+
+  .contact-info p {
+      font-size: 18px;
+  }
+
+  .social-platform a i {
+      font-size: 20px;
+  }
+
+  .copyright-container {
+      font-size: 14px;
+      padding-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+      padding: 5px;
+  }
+
+  .footer-logo img {
+      width: 80%;
+  }
+
+  .footer-middle-box h3,
+  .footer-right-box h3 {
+      font-size: 24px;
+  }
+
+  .footer-middle-box ul li a {
+      font-size: 14px;
+  }
+
+  .contact-info p {
+      font-size: 16px;
+  }
+
+  .social-platform {
+      gap: 15px;
+  }
+
+  .social-platform a i {
+      font-size: 18px;
+  }
+
+  .copyright-container {
+      font-size: 12px;
+      padding-top: 15px;
+  }
 }

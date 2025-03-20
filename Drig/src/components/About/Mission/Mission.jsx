@@ -12,21 +12,21 @@ const Mission = () => {
       title: "Our Mission",
       description:
         "We help businesses stand out amidst the intensifying competing online space, with strategic and innovative marketing solutions that deliver measurable success.  ",
-      image: "../../../../public/images/hut_image2.6a796d74ae5e292e31fa.webp",
+      image: "/images/MISSION.png",
     },
     {
       id: 2,
       title: "Our Vision ",
       description:
         "To strengthen businesses scale seamlessly in the ever-evolving digital landscape by building stable & powerful online identities driving sustained success.  ",
-image:"../../../../public/images/hut_image2.6a796d74ae5e292e31fa.webp",
+image:"/images/VISION.png",
     },
     {
       id: 3,
       title: "Our Values ",
       description:
         "Innovation & Creativity - Think not just out, but beyond the box- We take great pride in bringing unique content or campaigns to the table that are quite refreshing and achieve breakthrough results.",
-        image:"../../../../public/images/hut_image2.6a796d74ae5e292e31fa.webp",
+        image:"/images/VALUE.png",
     },
    
   ];

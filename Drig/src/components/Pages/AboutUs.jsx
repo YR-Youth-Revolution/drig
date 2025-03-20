@@ -6,6 +6,8 @@ import Values from '../About/Values/Values'
 import Mission from '../About/Mission/Mission'
 import WhyUs from '../About/Why Us/WhyUs'
 import Team from '../About/Team/Team'
+import Footer from '../Home/Footer/Footer'
+import HomeTestimonial from '../Home/HomeTestimonial/HomeTestimonial'
 
 const AboutUs = () => {
   return (
@@ -28,6 +30,12 @@ const AboutUs = () => {
    <section className='team-section'>
     <Team/>
    </section>
+   <div className="home-services-section">
+      <HomeTestimonial />
+      </div>
+     <div className="footer-section">
+      <Footer />
+      </div>
    </>
   )
 }

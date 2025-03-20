@@ -1,15 +1,17 @@
 import React from "react";
 import "../../Contact/Contact.css";
+import contact from "../../../../public/images/Contact us.jpg"
 
 const ContactBanner = () => {
   return (
     <div className="contact-banner-container">
      
-      <div>
-        <video width="600" autoPlay loop muted>
+      <div className="contact-banner-image">
+        {/* <video width="600" autoPlay loop muted>
           <source src="/images/coffee_table.f6f1d86703ff04457362.mp4" type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
+        <img src={contact} alt="" />
       </div>
       <div className="contact-banner-content">
       <div className='aboutbanner-container-right-content'>

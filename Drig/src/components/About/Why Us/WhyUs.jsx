@@ -1,5 +1,5 @@
 import React from 'react'
-import why from '../../../../public/images/hut_image2.6a796d74ae5e292e31fa.webp'
+import why from '../../../../public/images/drig-team.png'
 import one from '/public/images/star-dark.png'
 
 const WhyUs = () => {

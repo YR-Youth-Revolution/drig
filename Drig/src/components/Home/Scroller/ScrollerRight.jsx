@@ -7,24 +7,25 @@ const ScrollerRight = () => {
     <div className="scroller-container rt-scroller">
       <div className="scroller-wrapper rt-wrapper">
         <h1 className="scroller-text rt-text">
-          Drig.Digital <img className="star-dark" src={dark} /> 
-          Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
+        Brand Visibility <img className="star-dark" src={dark} />
+        Lead Generation <img
+            className="star-dark"
+            src={dark}
+          /> User Engagement <img className="star-dark" src={dark} /> Brand Visibility{" "}
+          <img className="star-dark" src={dark} /> Lead Generation{" "}
+          <img className="star-dark" src={dark} /> User Engagement{" "}
+          <img className="star-dark" src={dark} /> Brand Visibility{" "}
+          <img className="star-dark" src={dark} /> Lead Generation{" "}
           <img className="star-dark" src={dark} />
         </h1>
         <h1 className="scroller-text rt-text">
-          Drig.Digital <img className="star-dark" src={dark} /> Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
-          <img className="star-dark" src={dark} /> Drig.Digital{" "}
+        User Engagement <img className="star-dark" src={dark} /> Brand Visibility{" "}
+          <img className="star-dark" src={dark} /> Lead Generation{" "}
+          <img className="star-dark" src={dark} /> User Engagement{" "}
+          <img className="star-dark" src={dark} /> Brand Visibility{" "}
+          <img className="star-dark" src={dark} /> Lead Generation{" "}
+          <img className="star-dark" src={dark} /> User Engagement{" "}
+          <img className="star-dark" src={dark} /> Brand Visibility{" "}
           <img className="star-dark" src={dark} />
         </h1>
       </div>

@@ -4,6 +4,7 @@ import processone from '../../../../public/images/discovery.png'
 import processtwo from '../../../../public/images/cooperation.png'
 import processthree from '../../../../public/images/innovation.png'
 import processfour from '../../../../public/images/success.png'
+import processpic from '../../../../public/images/PROCESS.png'
 
 const OurProcess = () => {
   return (
@@ -13,6 +14,7 @@ const OurProcess = () => {
             <div className="process-head-box">
               <h3 className='buttonpro who-btn-h3 pt-process' style={{width: "22%"}}><span>Our Process</span></h3>
               <p>Explore the intricate gears of Drig Digital, where our strategy meets creativity, wisdom, and significant years of expertise, to help your brand constantly hit the ground amidst the competitive marketspace.</p>
+              <img src={processpic} alt="" srcset="" />
             </div>
         </div>
         <div className="process-right-con">

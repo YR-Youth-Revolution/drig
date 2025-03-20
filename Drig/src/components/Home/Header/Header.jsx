@@ -24,7 +24,7 @@ const Header = () => {
           <div className="menu desktop-menu">
             <ul>
               <li>
-                <a href="/About">ABOUT DRIG</a>
+                <a href="/about">ABOUT DRIG</a>
               </li>
               <li>
                 <a href="/services">SERVICES</a>
@@ -63,11 +63,14 @@ const Header = () => {
         </div>
         <ul>
           <li>
-            <a href="/media21">ABOUT M21</a>
+            <a href="/about">ABOUT DRIG</a>
           </li>
           <li>
-            <a href="/services">OUR SERVICES</a>
+            <a href="/services">SERVICES</a>
           </li>
+          <li>
+                <a href="/work">WORK</a>
+         </li>
           <li>
             <a href="/contact">CONTACT US</a>
           </li>

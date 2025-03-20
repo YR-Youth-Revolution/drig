@@ -1,7 +1,7 @@
 import React from 'react'
 import './Values.css'
-import gif1 from '../../../../public/images/boy_balcony.62250c7e3e1985f49bda.gif'
-import gif2 from '../../../../public/images/girl_balcony.7a0095b7a2686ce1aa32.gif'
+import gif1 from '../../../../public/images/LEFT CHAR.svg'
+import gif2 from '../../../../public/images/RIGHT CHAR.svg'
 import v1 from '../../../../public/images/v1.webp'
 import v2 from '../../../../public/images/v2.webp'
 import v3 from '../../../../public/images/v3.webp'
@@ -29,36 +29,36 @@ const Values = () => {
                 <img className='v1' src={v1} alt="" />
                 <img className='v1h' src={v1h} alt="" />
                 </div>
-                <h3>10+</h3>
+                <h3>100+</h3>
             
-                <p>years of creating value to brands & businesses</p>
+                <p>Clients<br/> Served</p>
             </div>
             <div className='values'>
                 <div className='values-hover'>
                 <img className='v1' src={v2} alt="" />
                 <img className='v1h' src={v2h} alt="" />
                 </div>
-                <h3>10+</h3>
+                <h3>1M+</h3>
             
-                <p>years of creating value to brands & businesses</p>
+                <p>People Impacted Through Campaigns</p>
             </div>
             <div className='values'>
                 <div className='values-hover'>
                 <img className='v1' src={v3} alt="" />
                 <img className='v1h' src={v3h} alt="" />
                 </div>
-                <h3>10+</h3>
+                <h3>25+</h3>
             
-                <p>years of creating value to brands & businesses</p>
+                <p>Diverse Industries Served</p>
             </div>
             <div className='values'>
                 <div className='values-hover'>
                 <img className='v1' src={v4} alt="" />
                 <img className='v1h' src={v4h} alt="" />
                 </div>
-                <h3>10+</h3>
+                <h3>15K+</h3>
             
-                <p>years of creating value to brands & businesses</p>
+                <p>Creatives Produced for Clients</p>
             </div>
         </div>
     </div>

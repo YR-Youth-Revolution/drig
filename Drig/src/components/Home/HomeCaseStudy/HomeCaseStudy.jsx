@@ -1,7 +1,10 @@
 import React from "react";
 import "./HomeCaseStudy.css";
 import logos from "/public/images/star-yellow.png";
-import work from "../../../../public/images/portfolio-work.png";
+import work1 from "../../../../public/images/Meal-Maven.jpg";
+import work4 from "../../../../public/images/vermilo-case-study.jpg";
+import work3 from "../../../../public/images/Seo-Case-Study.png";
+import work2 from "../../../../public/images/Branding-case-study.jpg";
 
 const HomeCaseStudy = () => {
   return (
@@ -33,38 +36,40 @@ const HomeCaseStudy = () => {
       <div className="case-study-wrapper">
        <div className="case-study-box">
         <div className="case-study-image-box">
-          <img src={work} alt="" />
+          <img src={work1} alt="" />
         </div> 
         <div className="case-study-content-box">
-          <h3>Marketing Agency Website Design</h3>
+          <h3>Future-ready, scalable- Breaking through with high performing & sales-driven websites
+
+          </h3>
           <p>Web Design & Development</p>
        </div>
         </div>
        <div className="case-study-box">
         <div className="case-study-image-box">
-           <img src={work} alt="" />
+           <img src={work2} alt="" />
         </div> 
         <div className="case-study-content-box">
-          <h3>Marketing Agency Website Design</h3>
-          <p>Web Design & Development</p>
+          <h3>Branding made bold & memorable- How we built a<br/> standout identity </h3>
+          <p>Graphic Design</p>
        </div>
         </div>
        <div className="case-study-box">
         <div className="case-study-image-box">
-           <img src={work} alt="" />
+           <img src={work3} alt="" />
         </div> 
         <div className="case-study-content-box">
-          <h3>Marketing Agency Website Design</h3>
-          <p>Web Design & Development</p>
+          <h3>Dominated search volume and rankings-  List of our SEO success stories</h3>
+          <p>Search Engine Optimisation</p>
        </div>
         </div>
        <div className="case-study-box">
         <div className="case-study-image-box">
-           <img src={work} alt="" />
+           <img src={work4} alt="" />
         </div> 
         <div className="case-study-content-box">
-          <h3>Marketing Agency Website Design</h3>
-          <p>Web Design & Development</p>
+          <h3>Social media play book- Our winning formula to generate 200% engagement and 2X higher conversions</h3>
+          <p>Social Media Marketing</p>
        </div>
         </div>
       

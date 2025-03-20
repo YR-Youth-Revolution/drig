@@ -40,12 +40,12 @@
    
 }
 
-.ser-left-box .who-btn-h3{
-    width: 23% !important;
+.ser-left-box .who-btn-h3 {
+    width: fit-content !important;
 }
 
 .ser-left-box h2{
-    font-size: 48px !important;
+    font-size: 48px ;
     font-family: "Space Grotesk", serif !important;
     color: var(--secondary) !important;
 }
@@ -216,4 +216,15 @@
 .home-team-con{
     
     margin-top: 180px;
+}
+
+
+@media (max-width: 768px){
+    .home-team-con {
+        margin-top: 100px;
+        width: 93% !important;
+        flex-direction: column !important;
+    }
+    
+
 }
